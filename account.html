@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 5. Account page</title>
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+</head>
+<body>
+    <div class="background">
+        <div class="container">
+            <div class="menu">
+                <a href="main.html" class="main">Main</a>
+                <a href="team.html" class="team">Team</a>
+                <a href="lessons.html" class="lessons">Lessons</a>
+            </div>              
+            <div class="account-content">
+                <div class="content menu-left">
+                    <a href="#" class="all-folder folder"></a>
+                    <a href="account.html" class="all-folder monitor menu-active"></a>
+                    <a href="#" class="all-folder users-alt"></a>
+                    <a href="#" class="all-folder cloud-share"></a>
+                    <a href="#" class="all-folder cog"></a>
+                </div>
+            <div class="bottom-block-2">
+                
+                <div class="account-block account-name">
+                    <div class="account-letter-1"> A </div>
+                    <div class="account-text"> <span class="text-A1">Andy Cube</span> <br> <span class="text-A2">andycube@gmail.com</span> </div>             
+                </div>
+                
+                <div class="password-block">
+                    <div class="change-password">  
+                        <div class="account-letter-2"></div>
+                        <div class="account-text"> <span class="text-A1">Change password</span> <br> <span class="text-A2">Please choose a password which is longer then 6 characters</span></div>
+                    </div>
+                    <div class="password-form">
+                        <form>
+                            <legend class="all-form-names">Old password</legend>
+                            <input type="password" placeholder="Enter password" id="password-box" minlength="6" required>
+                            <legend class="all-form-names">New password</legend>
+                            <input type="password" placeholder="Enter password" id="password-box" minlength="6" required>
+                            <legend class="all-form-names">Confirm password</legend>
+                            <input type="password" placeholder="Enter password" id="password-box" minlength="6" required>
+                            <br>
+                            <input type="submit" id="submit-1" value="Save">
+                        </form>
+                    </div>
+                </div> 
+
+                <div class="company-block">
+                    <div class="company-name">
+                        <div class="company-image"></div>
+                        <div class="company-text"> <span class="text-A1">Company</span> <br> <span class="text-A2">Optional, but we would appreciate if you fill out these form</span> </div>             
+                    </div>                    
+                        <form class="Company-form-block">
+                            <div class="company-field">
+                                <div class="company-field-1">
+                                    <legend class="all-form-names">Company name</legend>
+                                    <input type="company-form-name" placeholder="Logos IT-academy" id="company-form-name">
+                                    <legend class="all-form-names">Company adress</legend>
+                                    <input type="company-form-adress" placeholder="61 I.Franka. Lviv" id="company-form-adress" >
+                                </div>
+                                <div class="company-field-2">
+                                    <div class="co-box">
+                                        <legend class="all-form-names">Country</legend>
+                                        <input type="company-form-C/S/C/P" placeholder="Enter country" id="company-form-box">
+                                    </div>
+                                    <div class="co-box">
+                                        <legend class="all-form-names">State</legend>
+                                        <input type="company-form-C/S/C/P" placeholder="Enter state" id="company-form-box">
+                                    </div>
+                                    <div class="co-box">
+                                        <legend class="all-form-names">City</legend>
+                                        <input type="company-form-C/S/C/P" placeholder="Enter city" id="company-form-box">
+                                    </div>
+                                    <div class="co-box">
+                                        <legend class="all-form-names">Postal code</legend>
+                                        <input type="company-form-C/S/C/P" placeholder="Enter code" id="company-form-box">
+                                    </div>
+                                    <br>
+                                    <input type="submit" id="submit-2" value="Save">
+                                </div>
+                            </div>
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
